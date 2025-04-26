@@ -26,4 +26,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           curl -o mcc "https://github.com/MCCTeam/Minecraft-Console-Client/releases/download/20241227-281/MinecraftClient-20241227-281-linux-arm"
+          chmod 777 ./mcc
           ./mcc
